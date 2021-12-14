@@ -192,3 +192,4 @@ Result :
 
 
 Enjoy by your self!
+Rewrite it in go https://github.com/acekingke/lexergo
