@@ -12,7 +12,7 @@ def concat(*args):
 		read_str =()		
 		for e in args:
 			if not rest:
-				return ((False, read_str), rest)
+				return ((False, read_str), t)
 			(flag,s), rest = e(rest)
 			count = count + (1 if flag else 0)
 			read_str += (s if flag else ())
